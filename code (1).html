@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByTheFly - Gelang Manik-Manik Cantik</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF0F5; /* Light pink background */
+            color: #333;
+        }
+        header {
+            background-color: #FF69B4; /* Hot pink */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #FFB6C1; /* Light pink */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #FF69B4;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: white;
+        }
+        .hero {
+            background-color: #FF69B4;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .products {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .product-card {
+            background-color: white;
+            border: 2px solid #FF69B4;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(255, 105, 180, 0.3);
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product-card h3 {
+            color: #FF69B4;
+        }
+        .contact {
+            background-color: #FFB6C1;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .contact a {
+            color: #FF69B4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            color: white;
+        }
+        footer {
+            background-color: #FF69B4;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 768px) {
+            .product-grid {
+                flex-direction: column;
+                align-items: center;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ByTheFly</h1>
+        <p>Spesialis Gelang Manik-Manik Elegan dan Unik</p>
+    </header>
+    
+    <nav>
+        <a href="#home">Beranda</a>
+        <a href="#products">Produk</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+    
+    <section id="home" class="hero">
+        <h2>Selamat Datang di ByTheFly!</h2>
+        <p>Kami menyediakan gelang manik-manik cantik dengan desain terinspirasi dari charm kristal dan anime seperti Kimi ni Todoke. Setiap gelang dibuat dengan tangan menggunakan manik-manik berkualitas tinggi, rantai perak, dan kristal bening untuk tampilan yang mewah dan personal.</p>
+        <!-- Placeholder for hero image; replace with your bracelet photo -->
+        <img src="https://via.placeholder.com/600x400/FF69B4/FFFFFF?text=Gelang+ByTheFly" alt="Hero Image Gelang">
+    </section>
+    
+    <section id="products" class="products">
+        <h2>Produk Kami</h2>
+        <p>Temukan koleksi gelang manik-manik kami yang terinspirasi dari desain charm phone dengan elemen kristal, manik bulat, dan liontin unik.</p>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x200/FF69B4/FFFFFF?text=Kimi+ni+Todoke+Bracelet" alt="Gelang Kimi ni Todoke">
+                <h3>Gelang Kimi ni Todoke</h3>
+                <p>Gelang dengan manik kristal bening dan liontin bunga. Harga: Rp 150.000</p>
+                <button style="background-color: #FF69B4; color: white; border: none; padding: 10px; border-radius: 5px;">Beli di Shopee</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x200/FF69B4/FFFFFF?text=Sawawa+Bracelet" alt="Gelang Sawawa">
+                <h3>Gelang Sawawa Phone Charm Style</h3>
+                <p>Desain rantai panjang dengan manik bulat dan kristal menggantung. Harga: Rp 120.000</p>
+                <button style="background-color: #FF69B4; color: white; border: none; padding: 10px; border-radius: 5px;">Beli di Shopee</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x200/FF69B4/FFFFFF?text=Custom+Beaded+Bracelet" alt="Gelang Custom">
+                <h3>Gelang Custom Manik-Manik</h3>
+                <p>Buat gelang sesuai keinginan dengan tema anime dan kristal. Harga: Mulai Rp 100.000</p>
+                <button style="background-color: #FF69B4; color: white; border: none; padding: 10px; border-radius: 5px;">Pesan Sekarang</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Hubungi Kami</h2>
+        <p>Siap untuk memesan gelang impian Anda?</p>
+        <ul style="list-style: none; padding: 0;">
+            <li>📞 Telepon: <a href="tel:088291641889">088291641889</a></li>
+            <li>✉️ Email: <a href="mailto:devinripano22@gmail.com">devinripano22@gmail.com</a></li>
+            <li>📱 Instagram: <a href="https://instagram.com/bythefly.id" target="_blank">@bythefly.id</a></li>
+            <li>🛒 Shopee: <a href="https://shopee.co.id/bythefly.id" target="_blank">bythefly.id</a></li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 ByTheFly. Semua hak cipta dilindungi. Dibuat dengan ❤️ untuk pecinta aksesoris unik.</p>
+    </footer>
+</body>
+</html>
